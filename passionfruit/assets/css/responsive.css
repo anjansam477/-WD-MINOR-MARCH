@@ -1,0 +1,57 @@
+@media(max-width: 992px){
+
+    .navbar-collapse{
+        background: rgb(247, 226, 41);
+        padding-left: 1rem;
+
+    }
+}
+
+@media(max-width: 768px){
+    /*hero section*/
+    .image-box{
+        display: none;
+    }
+
+    .main-hero-content h1{
+        text-align: center;
+    }
+
+    .main-hero-content p{
+        text-align: center;
+    }
+
+    .hero-buttons{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    /*features section*/
+    #features .device img{
+        margin-bottom: 2rem;
+    }
+
+    #features{
+        margin-top: 0;
+    }
+
+    /*model section*/
+    #model .model-table{
+        width: calc(80%/1);
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #model .model-table:nth-child(1){
+        margin-top: -2rem;
+    }
+    /*contact section*/
+    #contact .address{
+        margin-top: 2rem;
+    }
+
+    /*footer section*/
+    .footer-logo{
+        margin-top: -1rem;
+    }
+}
